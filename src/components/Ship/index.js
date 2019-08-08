@@ -1,9 +1,10 @@
 import React from 'react'
+import './index.css'
 
-const Ship = ({ ship, number }) => {
+const Ship = ({ ship }) => {
     return (
         <div className='ship'>
-            <strong>{ship.name}</strong>
+            <h3>{ship.name}</h3>
             <br />
             <strong>Manufacturer: </strong>{ship.manufacturer}
             <br />

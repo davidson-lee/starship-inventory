@@ -1,5 +1,31 @@
 .App {
   text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.ships-container {
+  margin-top: 2rem;
+  overflow: auto;
+  border: 2px solid black;
+  width: 60%;
+  height: 60%;
+}
+
+#search-field {
+  width: 30%;
+  min-width: 20rem;
+  max-width: 80vw;
+  height: 2rem;
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 0.3rem;
+  border: 2px solid black;
+  padding: 0 1rem;
 }
 
 html {
@@ -15,5 +41,13 @@ h1 {
   font-family: jediFont;
   font-size: 4rem;
   color: rgb(224,214,74);
+  text-shadow: 0.1rem 0.1rem black;
   margin: 0;
 }
+
+h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-variant-caps: petite-caps
+}
+
